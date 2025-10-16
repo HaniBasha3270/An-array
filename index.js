@@ -45,4 +45,19 @@ console.log(animale.length);
 let names= [`hani, ali`];
 names[names.length]=`sahra`;
 console.log(names);
-//Q9 Pring all element using 3 loops
+//Q9 Pring all element using 3 loops?
+let number = [1,2,3,4];
+for(let i=0; i<number.length;i++);
+{
+    console.log(number.length[i]);
+}
+
+for(let num of number){
+    console.log(num)
+}
+
+let i = 0;
+while(i<number.length){
+    console.log(number[i]);
+}
+//
