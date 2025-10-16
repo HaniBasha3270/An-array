@@ -36,9 +36,13 @@ console.log(fruit);
 //Q7
 //  what dose length do ?
 // it give us number of itmes insaid an array .
-let animale = [`loin , donke , monke`]
-console.log(animale.length)
+let animale = [`loin , donke , monke`];
+console.log(animale.length);
  
 //Q8
-//how can you add a new element in an array
+//how can you add a new element in an array?
 
+let names= [`hani, ali`];
+names[names.length]=`sahra`;
+console.log(names);
+//Q9 Pring all element using 3 loops
